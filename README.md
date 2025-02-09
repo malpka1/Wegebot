@@ -6,8 +6,19 @@ Chatbot do wyszukiwania wegańskich przepisów kulinarnych na podstawie zadanych
 
 ## Struktura projektu
 
-projekt-chatbot/ ├── chatbot/ │ ├── chatbot_logic.py # Logika chatbota ├── data/ │ ├── recipes_df.csv # Plik CSV z przetworzonymi danymi przepisów │ ├── ervegan_recipes_with_categories (1).csv # Przepisy z Ervegan │ ├── recipes_with_categories (1).csv # Przepisy z Jadłonomii ├── notebooks/ │ ├── jadlonomia_scraping.ipynb # Skrapowanie danych z przepisami ze strony Jadłonomia │ ├── ervegan_scraping.ipynb # Skrapowanie danych z przepisami ze strony Ervegan │ ├── recipes_df.ipynb # Czyszczenie i łączenie danych ├── requirements.txt # Lista wymaganych bibliotek └── README.md # Dokumentacja projektu
-
+projekt-chatbot/
++-- chatbot/
+|   +-- chatbot_logic.py  # Logika chatbota
++-- data/
+|   +-- recipes_df.csv  # Plik CSV z przetworzonymi danymi przepisów
+|   +-- ervegan_recipes_with_categories (1).csv  # Przepisy z Ervegan
+|   +-- recipes_with_categories (1).csv  # Przepisy z Jadłonomii
++-- notebooks/
+|   +-- jadlonomia_scraping.ipynb  # Skrapowanie danych z przepisami ze strony Jadłonomia
+|   +-- ervegan_scraping.ipynb  # Skrapowanie danych z przepisami ze strony Ervegan
+|   +-- recipes_df.ipynb  # Czyszczenie i łączenie danych
++-- requirements.txt  # Lista wymaganych bibliotek
++-- README.md  # Dokumentacja projektu
 
 ## Wymagania
 
